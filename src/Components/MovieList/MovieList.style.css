@@ -1,0 +1,16 @@
+.movie-list ul, ol{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie-list ul li{
+    list-style: none;
+    width: 25%;
+}
+.movie-list ul li h3{
+    height: 50px;
+}
+.movie-list ul li img{
+    width: 150px;
+    height: auto;
+    border-radius: 10px;
+}
